@@ -1,0 +1,70 @@
+/**
+Displays
+*/
+.display {
+    -fx-background-color: auto;
+    -fx-border-width: 5px;
+    -fx-border-color: white;
+    -fx-text-fill: auto;
+}
+
+/** Display Titles */
+.title {
+    -fx-font: bold 25 "Arial";
+    -fx-underline: true;
+    -fx-padding: 10 10 80 10;
+}
+
+/** General Display Content */
+.vbox {
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-font: 14pt "Regular";
+    -fx-spacing: 20;
+}
+
+.main-display {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+    -fx-font: bold 16 "Regular";
+}
+
+/** Pink buttons on Display */
+.application {
+    -fx-background-color: linear-gradient(#ff95d6 0%, #ff80ce 50%, #e76eb1 51%, #ffb0e1 100%);
+    -fx-text-fill: mintcream;
+    -fx-padding: 10 20 10 20;
+    -fx-font: bold 16 "Regular";
+}
+
+.application:hover {
+    -fx-background-color: linear-gradient(#482980 0%, #522e92 50%, #3e236e 51%, #5d34a5 100%);
+}
+
+/** ToolBar and buttons */
+.tool-bar {
+    -fx-background-color: linear-gradient(royalblue, midnightblue);
+    -fx-spacing: 20;
+}
+
+.tool-bar-button:hover {
+    -fx-background-color: linear-gradient(#9b1306 0%, #af1607 50%, #881106 51%, #c21808 100%);
+}
+
+.tool-bar-button {
+    -fx-background-color: linear-gradient(#0da2ff 0%, #59bfff 50%, #26abff 51%, #bfe6ff 100%);
+    -fx-font-size: 15;
+    -fx-text-fill: mintCream;
+}
+
+/** Settings Display */
+.settings-vbox {
+    -fx-background-color: lightPink;
+}
+
+/** Languages Display */
+.languages-vbox {
+    -fx-background-color: lightGreen;
+}
+
+
